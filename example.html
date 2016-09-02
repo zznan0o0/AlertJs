@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{margin: 0;padding:0;border:0;}
+	</style>
+	<script type="text/javascript" src="alert.js"></script>
+</head>
+<body style=" padding: 0;border: 0;margin:0;position: relative;">
+<div alert-open="https://www.baidu.com/" alert-width="" alert-height="">点我弹出</div>
+<img img-open="http://p4.so.qhmsg.com/t01351866ea9a023de9.jpg" img-event="" img-width="" img-height="" src="http://img13.3lian.com/201404/22/a5555e3b7d0cc34051c48806926aecf8.png">
+
+<div alert-open="https://www.baidu.com/" style="margin-top: 2000px;">11111111</div>
+<script type="text/javascript">
+//实例化对象
+window.onload = function(){
+	var layout = new Alert();
+	//test
+	//layout.layoutShow('http://www.baidu.com', '1000px', '800px');
+
+	//layout.imgOutShow('http://p4.so.qhmsg.com/t01351866ea9a023de9.jpg', '1000px', '800px');
+	//setTimeout(layout.imgOutHide.bind(layout), 2000);
+
+	//layout.loadingShow();
+	//setTimeout(layout.loadingHide.bind(layout), 3000);
+
+	//layout.promptShow('hashhsf');
+	//layout.promptClickHide();
+	//setTimeout(layout.promptHide.bind(layout), 3000);
+
+	//layout.outDivShow('<img src="http://img13.3lian.com/201404/22/a5555e3b7d0cc34051c48806926aecf8.png" style="width:100%;height:100%;">', '800px', '600px');
+}
+</script>
+</body>
+</html>
