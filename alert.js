@@ -1,3 +1,4 @@
+//https://github.com/zznan0o0/AlertJs
 var Alert = function(){
 	this.scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
 	this.windowWidth = document.documentElement.clientWidth;
